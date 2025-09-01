@@ -8,12 +8,12 @@ SQL Extraction with LLM
 
    - Query: Please recommend an industrial public works program that can be supported until 2018.
 
-   '''json
+   ```json
    {
       "sql_where_clause": "end_date >= '2018-01-01'",
       "explanation": "Filtering for programs that were available for support until at least the year 2018."
    }
-   '''
+   ```
    </details>
 
    <details>
@@ -21,12 +21,12 @@ SQL Extraction with LLM
 
    - Query: Youth Support Programs Available in 2022.
 
-   '''json
+   ```json
    {
       "sql_where_clause": "target_audience = 'youth' AND start_date <= '2022-12-31' AND end_date >= '2022-01-01'",
       "explanation": "The filter condition searches for programs targeted at 'youth' that were available at any time during the year 2022."
    }
-   '''
+   ```
    </details>
 
 ### - SQL Extraction Example (GPT-OSS 20b)
@@ -36,9 +36,9 @@ SQL Extraction with LLM
 
    - Query: ...
 
-   '''json
+   ```json
    ...
-   '''
+   ```
    </details>
 
 
